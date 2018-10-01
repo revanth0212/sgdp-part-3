@@ -46,8 +46,8 @@ export default {
       })
     },
     {
-      name: 'countryCode',
-      path: ['fields', 'countryCode'],
+      name: 'phoneNumberCode',
+      path: ['fields', 'phoneNumberCode'],
       props: newCountry => ({
         value: getCountryPhoneCodeFromCountryCode(newCountry)
       })
